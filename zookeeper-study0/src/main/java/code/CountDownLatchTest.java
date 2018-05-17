@@ -52,8 +52,17 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
  */
 public class CountDownLatchTest{
     
-    private int threadNum = 5;//执行任务的子线程数量
-    private int workNum = 20;//任务数量
+    /**
+     * 执行任务的子线程数量
+     */
+    private int threadNum = 5;
+    /**
+     * 任务数量
+     */
+    private int workNum = 20;
+    /**
+     * 模拟每个任务的执行时间
+     */
     private final int sleepTime = 10000;
     private ExecutorService service;
     private ArrayBlockingQueue<String> blockingQueue;
