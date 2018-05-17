@@ -1,0 +1,9 @@
+/zookeeper-study*/target/
+/zookeeper-study*/.settings
+/zookeeper-study*/.classpath
+/zookeeper-study*/.project
+/zookeeper-study*/.idea/
+.metadata
+.recommenders
+RemoteSystemsTempFiles
+
